@@ -6,6 +6,6 @@
 
 在Mac上，[安装Homebrew](http://brew.sh)，然后执行 `brew install qemu nasm`
 
-不要使用Xcode开发工具中的`nasm`（如果你已安装），它们在大多数情况下无法正常工作。请始终使用`/usr/local/bin/nasm`
+不要使用Xcode开发工具中的 `nasm`（如果你已安装），它们在大多数情况下无法正常工作。请始终使用 `/usr/local/bin/nasm`
 
 在某些系统上，qemu会被拆分为多个二进制文件。你可能需要执行 `qemu-system-x86_64 binfile`
