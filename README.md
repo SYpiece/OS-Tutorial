@@ -11,7 +11,7 @@
 - 大学课程太难，现在大多都忘了
 - 我受够了那些认为直接阅读现有内核（哪怕是小内核）是学习操作系统的好方法的人
 
-受[这份文档](http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)和[OSDev维基](http://wiki.osdev.org/)启发，我将尝试制作简短的分步教程和代码示例，供所有人学习。本质上，本教程就是将第一份文档拆分成更小的章节，并去除了理论部分。
+受[这份文档](附加文件/os-dev.pdf)和[OSDev维基](http://wiki.osdev.org/)启发，我将尝试制作简短的分步教程和代码示例，供所有人学习。本质上，本教程就是将第一份文档拆分成更小的章节，并去除了理论部分。
 
 更新：新增参考资料：[操作系统开发小书](https://littleosbook.github.io)、[JamesM的内核开发教程](https://web.archive.org/web/20160412174753/http://www.jamesmolloy.co.uk/tutorial_html/index.html)
 

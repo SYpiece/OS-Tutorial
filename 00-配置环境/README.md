@@ -1,11 +1,11 @@
-*你可能需要提前用谷歌搜索的概念：Linux、Mac、终端、编译器、模拟器、nasm、qemu*
+*在开始之前你可能需要 Google 了解的概念：Linux、Mac、终端、编译器、模拟器、nasm、qemu*
 
-**目标：安装运行本教程所需的软件**
+**目标：安装运行教程所需的软件**
 
-我使用的是Mac，不过Linux更好，因为它已经为你准备好了所有标准工具。
+我在一台 Mac 电脑上工作，但是 Linux 是一个更好的选择因为 Linux 一般都提供了你需要的标准工具。
 
 在Mac上，[安装Homebrew](http://brew.sh)，然后执行 `brew install qemu nasm`
 
-不要使用Xcode开发工具中的 `nasm`（如果你已安装），它们在大多数情况下无法正常工作。请始终使用 `/usr/local/bin/nasm`
+如果你已经安装了 Xcode ，不要使用开发工具里面的 `nasm` ，大多数情况下，这个程序都没办法正常工作，我们会一直使用 `/usr/local/bin/nasm`
 
-在某些系统上，qemu会被拆分为多个二进制文件。你可能需要执行 `qemu-system-x86_64 binfile`
+在有些系统上 qemu 分成好几个二进制文件，你可能会使用 `qemu-system-x86_64 binfile`

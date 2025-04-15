@@ -1,8 +1,8 @@
-*Concepts you may want to Google beforehand: segmentation*
+*在开始之前你可能需要 Google 了解的概念：段*
 
-**Goal: learn how to address memory with 16-bit real mode segmentation**
+**目标：学会使用 16 位实模式段编址内存**
 
-If you are comfortable with segmentation, skip this lesson.
+如果你已经很熟悉实模式的段机制，可以直接跳过这个课程。
 
 We did segmentation
 with `[org]` on lesson 3. Segmentation means that you can specify
