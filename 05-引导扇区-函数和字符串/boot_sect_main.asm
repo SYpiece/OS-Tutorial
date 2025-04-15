@@ -1,6 +1,6 @@
-[org 0x7c00] ; tell the assembler that our offset is bootsector code
+[org 0x7c00] ; 告知汇编器引导扇区代码的偏移量
 
-; The main routine makes sure the parameters are ready and then calls the function
+; 主程序确保参数就绪后调用函数
 mov bx, HELLO
 call print
 
@@ -14,21 +14,21 @@ call print_nl
 mov dx, 0x12fe
 call print_hex
 
-; that's it! we can hang now
+; 程序结束！进入无限循环
 jmp $
 
-; remember to include subroutines below the hang
+; 注意：子程序应在主程序之后引入
 %include "boot_sect_print.asm"
 %include "boot_sect_print_hex.asm"
 
 
-; data
+; 数据
 HELLO:
     db 'Hello, World', 0
 
 GOODBYE:
     db 'Goodbye', 0
 
-; padding and magic number
+; 填充和魔术数字
 times 510-($-$$) db 0
 dw 0xaa55
